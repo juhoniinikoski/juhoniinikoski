@@ -66,6 +66,9 @@ const { title, description } = Astro.props;
   );
 </script>
 
+<!-- do not remove that async prop as it would otherwise block the rendering of the page -->
+<script async src="https://cdn.seline.so/seline.js" data-token="ce4df551c8cf239"></script>
+
 <script is:inline>
   function init() {
     preloadTheme();

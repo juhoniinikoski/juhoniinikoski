@@ -5,6 +5,7 @@
   "scripts": {
     "astro": "astro",
     "build": "astro check && astro build",
+    "deploy": "sst deploy",
     "dev:network": "astro dev --host",
     "dev": "sst dev astro dev",
     "lint:fix": "eslint . --fix",
